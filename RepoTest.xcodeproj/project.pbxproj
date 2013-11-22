@@ -191,6 +191,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Nathan Christie";
 				TargetAttributes = {
+					D80AC5A4183FB9D200D5B109 = {
+						DevelopmentTeam = X9BTA3NPLP;
+					};
 					D80AC5BF183FB9D300D5B109 = {
 						TestTargetID = D80AC5A4183FB9D200D5B109;
 					};
@@ -359,10 +362,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RepoTest/RepoTest-Prefix.pch";
 				INFOPLIST_FILE = "RepoTest/RepoTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -372,10 +379,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RepoTest/RepoTest-Prefix.pch";
 				INFOPLIST_FILE = "RepoTest/RepoTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -441,6 +453,7 @@
 				D80AC5D3183FB9D300D5B109 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D80AC5D4183FB9D300D5B109 /* Build configuration list for PBXNativeTarget "RepoTestTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +462,7 @@
 				D80AC5D6183FB9D300D5B109 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
