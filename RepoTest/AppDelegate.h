@@ -6,6 +6,9 @@
 //  Copyright (c) 2013 Nathan Christie. All rights reserved.
 //
 
+// Test comment for diff-age
+// Another comment...
+
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
